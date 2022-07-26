@@ -1358,7 +1358,7 @@ label{
     overflow-x: hidden;
 }
 
-#vender-main-list {
+.vender-main-list {
 
     overflow-y: scroll;
     height: 350px;
