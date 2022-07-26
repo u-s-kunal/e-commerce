@@ -1,0 +1,2284 @@
+
+/*------------------------ HOME PAGE CSS ---------------------- */
+
+:root {
+
+    --first-color: rgb(183, 5, 5);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#main{
+    padding: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.logo-main-menu {
+    margin-left: 80px;
+}
+
+.location-home-btn{
+    background-color: var(--first-color);
+    color: white;
+    height: 42px;
+    margin-top: 10px;
+}
+
+
+.listGroupItem,
+.closebtn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    transition: 0.3s;
+}
+
+.listGroupItem:hover,
+.closebtn:hover {
+    color: gray;
+    background-color: white;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+
+
+.sublist {
+    position: fixed;
+    left: 300px;
+    display: none;
+    width: 260px;
+    box-shadow: 0px 0px 50px rgba(83, 82, 82, 0.685);
+    transition: 1s;
+    border-radius: 10px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.sublistUL {
+    margin: 10px;
+}
+
+.sublistUL li {
+    margin: 5px;
+    background-color: var(--first-color);
+    color: white;
+    border: none;
+
+    transition: 500ms;
+}
+
+.sublistUL li:hover {
+    color: white;
+    background-color: green;
+    border: none;
+
+}
+
+.sublistBtn {
+    margin: 5px;
+    margin-left: 215px;
+    padding: 5px 13px;
+}
+
+#mySidebar {
+    overflow-x: hidden;
+}
+
+.listOfbigNav {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    font-size: 36px;
+    padding-right: 30px;
+}
+
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--first-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    z-index: 10000;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+
+.svgIMG a {
+    margin: 0px 20px;
+
+}
+
+.breadcrumb li a {
+    color: white;
+}
+
+.main-header-home-page {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 100px 0px;
+    background-color: var(--first-color);
+}
+
+.main-nav-containt{
+    width: 100%;
+    display: flex;
+}
+
+.location-main-menu {
+    z-index: 1000000;
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+}
+
+.smalllocationBTN {
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.location-main-menu button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.location-main-menu:focus {
+    border: none;
+}
+
+.locationIMG {
+    margin-top: -10px;
+}
+
+
+
+.main-heading {
+    font-size: 4.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.svgIMG {
+    text-decoration: none;
+    /* background-color: #04AA6D; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 250px;
+}
+
+.badge-1 {
+    /* position: absolute; */
+    /* left: 84.5%; */
+    padding: 2px 6px 2px 9px;
+    margin-top: -10px;
+
+}
+
+.badge-2 {
+    margin-right: 3px;
+    background-color: var(--first-color);
+    padding: 2px 6px 2px 9px;
+
+}
+
+
+.searchBar {
+    border: 2px solid var(--first-color);
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+.searchBar .buttsearchButtonon {
+    border-radius: 0;
+}
+
+ .searchInput-main-page {
+    border: none;
+    height: 60px;
+}
+
+.searchBar input:focus,
+.login-btn-main button:focus,
+.accordion-header button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+#loginBTN {
+    border-radius: 0;
+}
+
+
+.accordion-body {
+    background-color: var(--first-color);
+}
+
+
+
+.productList li:hover {
+    background-color: var(--first-color);
+    color: white;
+
+
+}
+
+.productList a {
+    text-decoration: none;
+
+
+}
+
+
+.small-location {
+    display: none;
+
+}
+
+
+
+
+
+.see-all-btn a {
+    border: 1px solid gray;
+    box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.651);
+}
+
+.small-round-btn .small-main-dot {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#mainNav {
+    position: fixed;
+    z-index: 100;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#largeMenuBtn {
+
+    position: fixed;
+    top: 1.5%;
+    left: 2%;
+    z-index: 1000;
+    padding: 10px 16px;
+    background-color: var(--first-color);
+    color: antiquewhite;
+    /* display: none; */
+}
+
+#smallMenuBtn {
+    display: none;
+
+}
+
+
+.burgerBtn:hover {
+    color: white;
+}
+
+#offcanvasExample {
+    width: 300px;
+
+}
+
+.dropKey {
+    width: 266px;
+}
+
+.login-btn-main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #04AA6D; */
+    z-index: 10000;
+    height: 70px;
+    width: 50px;
+    left: 95%;
+
+}
+
+.accordion-header button {
+    padding: 0rem;
+}
+
+
+/* ALL CATEGORY PRODUCTS HERE  */
+
+.AllCategories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding-left: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* background-color:  var(--first-color); */
+
+
+}
+
+.AllCategories::-webkit-scrollbar {
+    display: none;
+}
+
+.imageBox {
+    position: relative;
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+
+.imageBox a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.imageBox img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 280px;
+    height: 160px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    padding: 10px;
+    display: block;
+    margin-left: 70px;
+}
+
+.categoriesbutton {
+    position: relative;
+    z-index: 10;
+    background-color: var(--first-color);
+
+}
+
+.our-services img:hover {
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 20px;
+}
+
+
+
+/* FOOD SECTION CSS  */
+
+.food-item-box {
+    background-color: var(--first-color);
+}
+
+.product-add {
+    padding: 2px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--first-color);
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    transition: 1s;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    margin: 10px;
+    padding: 20px;
+    min-width: 220px;
+    min-height: 450px;
+}
+
+.product-card:hover .product-add {
+    box-shadow: 0px 3px 20px rgb(225, 225, 225);
+    background-color: green;
+
+}
+
+.product-card:hover .WishlistBtn {
+    box-shadow: 0px 3px 20px rgb(225, 225, 225);
+    background-color: var(--first-color);
+    color: white;
+
+}
+
+.WishlistBtn {
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    padding: 3px 10px;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+
+.product-card:hover {
+    box-shadow: 0px 3px 30px rgb(240, 241, 240);
+
+}
+
+
+
+.product-name a {
+    color: black;
+}
+
+.product-name a:hover {
+    color: var(--first-color);
+}
+
+
+
+/* MEDIA QUIERIES  */
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    #mainNav {
+        height: 80px;
+    }
+
+    #largeMenuBtn {
+        display: none;
+    }
+
+    .btnClose {
+        color: white;
+    }
+
+    .openbtn {
+        display: none;
+    }
+
+    #smallMenuBtn {
+        display: block;
+        position: absolute;
+
+    }
+
+
+
+    .svgIMG {
+        text-decoration: none;
+        /* background-color: #04AA6D; */
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 150px;
+        margin-right: 40px;
+
+
+    }
+
+    .login-btn-main {
+
+        left: 88%;
+        top: 1%;
+
+    }
+
+    .small-location {
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .badge-1 {
+        margin-bottom: -10px;
+    }
+
+    .main-heading {
+        font-size: 6vw;
+    }
+
+
+
+    .location-main-menu {
+        position: fixed;
+        /* top: 5%; */
+        left: 38%;
+        z-index: 1000000;
+    }
+
+    #logo {
+        margin-left: 40px;
+    }
+
+    #menuBtn {
+        position: fixed;
+        height: 50px;
+        width: 60px;
+        top: 0.3%;
+        left: 2%;
+        margin-top: 12px;
+        z-index: 1000;
+        padding: 0px 16px;
+        background-color: var(--first-color);
+        color: white;
+        font-size: 30px;
+
+    }
+
+    .AllCategories {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+        padding-left: 100px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .sublistOfMobile{
+        background-color: var(--first-color);
+    }
+    .mobile-menu-list{
+        margin: 8px;
+        border: none;
+    }
+ 
+ 
+}
+@media only screen and (max-width: 580px) {
+    .location-main-menu {
+        display: none;
+    }
+
+    .svgIMG a {
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .logo {
+        margin-left: 70px;
+    }
+
+    .login-btn-main {
+
+        left: 82%;
+        top: 1.5%;
+
+    }
+
+
+    .svgIMG a {
+        display: none;
+
+    }
+
+    .location-main-menu {
+        display: none;
+    }
+
+   
+
+    .smalllocationBTN {
+        border: none;
+    }
+
+
+    .product-card {
+
+        height: auto;
+    }
+
+    #mainNav {
+        height: 90px;
+    }
+
+
+}
+
+/* --------------------------MOBILE NUMBER AND OTP PAGE CSS -------------------------- */
+
+
+
+.logo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.back-img{
+
+    height: 500px;
+    width: 530px;
+
+}
+
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainCard {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: 420px;
+    padding: 50px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(43, 42, 42, 0.404), inset 1px 1px 30px rgba(187, 187, 187, 0.287);
+    border: 3px solid var(--first-color);
+
+}
+
+
+.Trial-text {
+    background-color: #3a8011;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.input{
+    padding: 10px;
+    height: 50px;
+    border: 1px solid  #115280;
+    border-radius: 0px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.input:focus{
+    background-color: transparent;
+
+}
+
+.button{
+    background-color:rgb(148, 15, 15) ;
+    border: none;
+    margin: 15px 0px;
+    color: white;
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.button:hover{
+    background-color:rgb(189, 3, 3) ;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.card-footer{
+    background-color: transparent;
+}
+
+
+/* media queries starts here  */
+@media only screen and (max-width: 1260px) {
+    .mainBox{
+        display: flex;
+        align-items: center;
+    }
+
+    .mainCard-number{
+        margin-top: 120px;
+    }
+   
+    .mainCard {
+        background-color: white;
+        width: auto;
+        padding: 30px 10px;
+    }
+
+    .back-img{
+        display: none;
+    }
+
+    .otp{
+        height: 60px;
+        width: 60px;
+    }
+    
+
+   
+    
+    
+  }
+
+@media only screen and (max-width: 900px) {
+    .mainBox{
+        display: flex;
+        align-items: center;
+
+
+    }
+   
+   
+   
+    .mainCard {
+        background-color: white;
+        width: auto;
+        top: 20%;
+        padding: 30px 10px;
+        left: 5%;
+
+    }
+
+    .back-img{
+        display: none;
+    }
+
+    .otp{
+        height: 50px;
+        width: 50px;
+    }
+
+   
+    
+    
+  }
+
+
+/* -----------------OTP PAGE CSS HERE ------------------- */
+.otp{
+    height: 70px;
+    width: 70px;
+}
+
+.m-head{
+    background-color: var(--first-color);
+
+}
+
+/* media queries starts here  */
+
+  
+  @media only screen and (max-width: 800px) {
+
+  
+
+    .otp{
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+}
+  @media only screen and (max-width: 400px) {
+
+  
+    .otp{
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+}
+
+/* -----------------------------------SELECT STAFF CSS --------------------------------- */
+
+
+.topHeading-staff{
+
+
+    margin-left: 260px; 
+
+
+}
+
+.listOfitems-staff {
+
+    width: 550px;
+    position: fixed;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.277);
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 80px;
+    flex-direction: column;
+    margin-left: 120px;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    left: 100px;
+    border-radius: 10px;
+    
+
+
+}
+.smallTicket-staff{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    left: 835px;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.293);
+    text-align: center;
+    z-index: 100;
+
+    
+  
+}
+.ticket-img-staff-select{
+    position: absolute;
+    top: -70px;
+    left:95px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px gray;
+
+}
+
+.staff-image{
+    margin: 10px;
+}
+.smallCardTwo-staff{
+    position: fixed;
+    height: auto;
+    width: 300px;
+    left:835px;
+    top: 330px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    z-index: 100;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.291);
+
+}
+
+
+
+
+.topBar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 101vw;
+    height: 170px;
+    z-index: 100;
+    margin-top: -10px;
+
+}
+.top-close-btn{
+    margin-left: 1000px;
+    margin-top:-500px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 1px;
+    padding: 25px;
+
+}
+
+.listTag{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.listTag:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.container-fluid{
+    min-height: 300px;
+}
+
+.ticket-list{
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.staff-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+
+
+    
+    
+
+}
+.price-list-small-staff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+
+
+
+}
+
+.sub-list-overflow {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+
+
+
+.total-price{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ticketHeading{
+
+   margin-top: 120px;
+
+}
+
+
+.mainBOX{
+
+    display: flex;
+
+}
+
+
+@media screen and (max-width: 1120px) {
+    
+
+    .topHeading-staff{
+
+
+        margin-left: 10px; 
+
+
+    }
+    
+    .smallCardTwo-staff{
+        display: none;
+    }
+    .smallTicket-staff{
+        display: none;
+    }
+    .horizontalList{
+        width: 100%;
+        left: 0;
+    }
+    .listOfitems-staff{
+        width: 100%;
+        left: 0;
+        margin-left: 0vw;
+        margin-top: 120px;
+        display: block;
+        position:static;
+    }
+
+     .topBar{
+        width: 103vw;
+        height: 120px;
+        position:static;
+    }
+    .smallCardMain-staff{
+        display: none;
+    }
+  
+
+      body{
+        overflow-x: hidden;
+      }
+     
+ 
+  }
+
+
+  /* --------------------------------SIGNUP FORM CSS ---------------------------- */
+
+.topHeading{
+
+
+    margin-left: 250px; 
+
+
+}
+.emailBtn{
+    padding: 10px 100px 5px 100px ;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+label{
+    font-weight: bold;
+}
+.form-control{
+    padding: 16px 12px;
+    margin: 10px 0px;
+}
+
+.topBar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 101vw;
+    height: 170px;
+    padding: 20px;
+    z-index: 10;
+    margin-top: -10px;
+    background-color: #212529;
+
+}
+.topHeading-sign-up-form{
+    z-index: 1000000;
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    height: 70px; 
+    width: 550px;
+
+}
+.topStep-sign-up{
+    z-index: 1000000;
+    position: fixed;
+    top:0%;
+    padding-right:550px ;
+    background-color: #212529;
+    width: 101vw;
+    height: 160px;
+    
+
+}
+
+.listOfitems-sign-up-form {
+
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.277);
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top:150px;
+    flex-direction: column;
+    margin-left: 250px;
+    z-index: 1000;
+    background-color: white;
+    left: 170px;
+    border-radius: 10px;
+
+
+
+}
+
+.leftArrow-sign-up-form{
+    height: 40px;
+    margin-left: -00px;
+}
+.ticketHeading{
+
+    z-index: 1000;
+    margin-top: 100px;
+
+ 
+ }
+.smallTicket-sign-up-form{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    left: 835px;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.293);
+    text-align: center;
+    z-index: 1000000000;
+  
+}
+
+.formBox-sign-up-form{
+    height: auto;
+}
+.ticket-img{
+    position: absolute;
+    top: -100px;
+    left:80px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px gray;
+    z-index: 1000000000;
+
+}
+.smallCardTwo-sign-up-form{
+    position: fixed;
+    height: 400px;
+    width: 300px;
+    left: 835px;
+    top: 330px;
+    overflow-y: scroll;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 100;
+    border: 2px solid white;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.291);
+
+
+}
+
+
+.top-close-btn{
+    margin-left: 1000px;
+    margin-top:-500px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 1px;
+    padding: 25px;
+
+}
+
+
+.ticket-list{
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+     
+    
+
+}
+.price-list-small{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    padding-top: 50px;
+    height: auto;
+    overflow-y: scroll;
+
+}
+.price-content{
+
+    width: 250px;
+}
+
+.sub-list-overflow {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+}
+
+.total-price{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+    height: auto;
+    justify-content: space-between;
+    width: 200px;
+    border-top: 1px solid rgb(180, 180, 180);
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1270px) {
+
+    body{
+        overflow-x: hidden;
+      }
+
+      .listOfitems-sign-up-form{
+        /* background-color: rgb(43, 226, 162); */
+        margin-top: 100px;
+      }
+
+}
+
+
+@media screen and (max-width: 1120px) {
+    
+    
+   
+    
+    .smallCardTwo-sign-up-form{
+        display: none;
+    }
+    .smallTicket-sign-up-form{
+        display: none;
+    }
+    .horizontalList{
+        width: 100%;
+        left: 0;
+    }
+    .listOfitems-sign-up-form{
+        width: 100%;
+        left: 0;
+        margin-left: 0vw;
+        margin-top: 150px;
+        display: block;
+        position:static;
+        height: auto;
+    }
+
+     .topBar-sign-up-page{
+
+        display: none;
+        position:static;
+    }
+    .smallCardMain{
+        display: none;
+    }
+  
+
+    
+  }
+
+  @media screen and (max-width: 820px){
+
+   
+    .leftArrow-sign-up-form{
+        height: 40px;
+        margin-left: 200px;
+    }
+
+  }
+  @media screen and (max-width: 620px){
+    body{
+        overflow-x: hidden;
+      }
+  
+
+  }
+
+
+  /* -------------------------VENDERS MAIN PAGE CSS------------------------  */
+  body {
+    overflow-x: hidden;
+}
+
+#overflow-of-list {
+
+    overflow-y: scroll;
+    height: 350px;
+    scroll-behavior: smooth;
+
+
+}
+
+.sub-list-overflow {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.radio-btn {
+    height: 30px;
+    width: 30px;
+
+}
+
+.radioBtnBack {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    padding: 0;
+}
+
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+
+
+
+}
+
+.card-img-top{
+    box-shadow: 1px 6px 30px rgba(0, 0, 0, 0.303);
+}
+
+.list-group-item-action:hover{
+background-color: green;
+color: white;
+}
+
+.list-group-item-action:default{
+    background-color: light;
+}
+
+
+
+.staff-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    scroll-behavior: smooth;
+}
+
+.staff-img:hover{
+    outline: 4px solid rgb(16, 195, 16);
+    
+
+}
+
+.staff-list-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+.progress {
+    background-color: rgb(222, 219, 219);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 6px;
+    margin-top: 10px;
+}
+.treat-text{
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.treat-row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.treat-text:hover{
+    color: gray;
+
+}
+
+.venders-near-by {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+}
+
+
+.accordion-body-veneders-main{
+    background-color: white;
+
+}
+
+
+
+
+/* ---------------------------------LOGIN PAGE CSS ----------------------------- */
+
+.topHeading{
+
+
+    margin-left: 250px; 
+
+
+}
+.emailBtn{
+    padding: 10px 100px 5px 100px ;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.listOfitems-login {
+
+    width: 570px;
+    position: fixed;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.277);
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 90px;
+    flex-direction: column;
+    margin-left: 90px;
+    z-index: 1000;
+    background-color: white;
+    left: 120px;
+    border-radius: 10px;
+
+
+}
+.smallTicket-login{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    left: 835px;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    /* height: 28vh; */
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.293);
+    text-align: center;
+    z-index: 100;
+    
+  
+}
+.ticket-img-login{
+    position: absolute;
+    top: -60px;
+    left:100px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px gray;
+}
+
+
+.topBar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 101vw;
+    height: 170px;
+    z-index: 100;
+    margin-top: -10px;
+
+}
+.top-close-btn{
+    margin-left: 1000px;
+    margin-top:-500px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 1px;
+    padding: 25px;
+
+}
+
+
+
+
+.container-fluid{
+    min-height: 300px;
+}
+
+.ticket-list{
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+
+    
+
+}
+
+.price-list-small-login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+    padding-top: 50px;
+}
+
+.sub-list-overflow {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+
+
+.total-price{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 80px;
+    justify-content: space-between;
+    width: 200px;
+
+}
+.ticketHeading{
+
+   margin-top: 100px;
+
+}
+
+
+.mainBOX{
+
+    display: flex;
+
+}
+@media screen and (max-width: 1270px) {
+
+    body{
+        overflow-x: hidden;
+      }
+
+      .listOfitems-login {
+        /* background-color: rgb(43, 226, 162); */
+        margin-top: 100px;
+      }
+
+}
+
+@media screen and (max-width: 1120px) {
+    
+
+    .topHeading{
+
+
+        margin-left: 10px; 
+
+    }
+    
+    .smallCardTwo{
+        display: none;
+    }
+    .smallTicket-login{
+        display: none;
+    }
+    .horizontalList{
+        width: 100%;
+        left: 0;
+    }
+    .listOfitems-login {
+        width: 100%;
+        left: 0;
+        margin-left: 0vw;
+        margin-top: 120px;
+        display: block;
+        position:static;
+    }
+
+     .topBar{
+        width: 103vw;
+        height: 120px;
+        position:static;
+    }
+    .smallCardMain{
+        display: none;
+    }
+  
+
+      body{
+        overflow-x: hidden;
+      }
+     
+ 
+  }
+
+
+  /* -----------------------SELECT TIME PAGE CSS --------------------------- */
+
+  .topHeading {
+
+
+    margin-left: 250px;
+
+
+}
+
+.horizontalList {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 500px;
+    top: 160px;
+    left: 290px;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    border-radius: 10px;
+    z-index: 100000;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+
+}
+
+.horizontalList::-webkit-scrollbar {
+    display: none;
+}
+
+.listOfitems-time {
+
+    width: 500px;
+    position: relative;
+    box-shadow: 0px 30px 30px rgba(68, 66, 66, 0.415);
+    z-index: 10;
+    padding: 0px;
+    margin-top: 200px;
+    flex-direction: column;
+    margin-left: 130px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-radius: 0px 0px 10px 10px;
+    left: 120px;
+    height: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.listOfitems-time::-webkit-scrollbar {
+    display: none;
+}
+
+.smallTicket {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    left: 835px;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    /* height: 28vh; */
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.293);
+    text-align: center;
+    z-index: 100;
+
+
+}
+
+.ticket-img {
+    position: absolute;
+    top: -60px;
+    left: 100px;
+    
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.smallCardTwo {
+    position: fixed;
+    width: 300px;
+    left: 835px;
+    top: 340px;
+    overflow-y: scroll;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 100;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.291);
+
+}
+
+.monthBox {
+    position: fixed;
+    width: 490px;
+    top: 100px;
+    left: 280px;
+    z-index: 100000;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.dateBox {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+    flex-direction: column;
+    border: 0.5px solid rgb(183, 183, 183);
+    border-radius: 10px;
+    background-attachment: fixed;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.dateBox:hover {
+    border: 1.4px solid rgb(102, 102, 251);
+
+}
+
+.horizontalList a {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.topBar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 101vw;
+    height: 140px;
+    z-index: 100;
+    margin-top: -10px;
+
+}
+
+.top-close-btn {
+    margin-left: 1000px;
+    margin-top: -500px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 1px;
+    padding: 25px;
+
+}
+
+
+
+.listTag {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.listTag:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.container-fluid {
+    min-height: 300px;
+}
+
+.ticket-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+.price-list-small-time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.price-list-small{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sub-list-overflow {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+}
+
+.radio-btn {
+    height: 30px;
+    width: 30px;
+
+}
+
+.radioBtnBack {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    padding: 0;
+}
+
+
+
+
+.total-price {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ticketHeading {
+
+    margin-top: 120px;
+
+}
+
+
+.mainBOX {
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1140px) {
+    
+
+    .topHeading{
+        margin-left: 10px; 
+    
+    
+    }
+    .topBar{
+        width: 105vw;
+
+
+    }
+    
+    .smallCardTwo{
+        display: none;
+    }
+    .smallTicket{
+        display: none;
+    }
+    .horizontalList{
+        width: 100%;
+        left: 0;
+        justify-content: center;
+    }
+    .listOfitems-time{
+        width: 100%;
+        left: 0;
+        margin-left: 0vw;
+        margin-top: 20%;
+        display: block;
+        position:static;
+
+    }
+    .monthBox {
+        width: 100%;
+    left: 0%;
+    height: 100px;
+
+    }
+  }
+
+  @media screen and (max-width: 940px){
+    .listOfitems{
+      /* background-color: cadetblue; */
+      margin-top: 30%;
+
+    }
+    
+
+  }
+  @media screen and (max-width: 640px){
+    .listOfitems{
+      /* background-color: rgb(121, 165, 136); */
+      margin-top: 48%;
+
+
+    }
+    .horizontalList{
+        width: 100%;
+        left: 0%;
+        padding-left: 250px;
+        justify-content: center;
+    }
+
+  }
+
+/* ---------------------------------BOOK NOW PAGE CSS-----------------------  */
+
+
+
+
+.topHeading-booking-page{
+
+
+    margin-left: 250px; 
+
+
+}
+.horizontalList-booking-page{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.413); */
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    align-items: center;
+    width: 520px;
+    top: 100px;
+    left: 255px;
+    border-radius: 10px;
+    z-index: 10000;
+
+
+}
+.listOfitems-booking-page {
+
+    width: 520px;
+    position: relative;
+    box-shadow: 0px 30px 30px rgba(68, 66, 66, 0.415);
+    z-index: 10;
+    padding: 0px;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 100px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    left: 130px;
+    height: auto;
+
+
+
+
+}
+
+
+.smallTicket-booking-page{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    left: 835px;
+    border-radius: 10px 10px 0px 0px;
+    width: 288px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.293);
+    text-align: center;
+    z-index: 100;
+    
+  
+}
+.ticket-img-booking-page{
+    position: absolute;
+    top:-70px;
+    left:95px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.smallCardTwo-booking-page{
+    position: fixed;
+    width: 288px;
+    left: 835px;
+    top: 80px;
+    overflow-y: scroll;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 100;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.291);
+
+}
+
+
+
+
+.topBar-booking-page{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 101vw;
+    height: 140px;
+    z-index: 100;
+    margin-top: -10px;
+
+}
+.top-close-btn-booking-page{
+    margin-left: 1000px;
+    margin-top:-500px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 1px;
+    padding: 25px;
+
+}
+
+
+
+.listTag-booking-page{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.listTag-booking-page:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.container-fluid-booking-page{
+    min-height: 300px;
+}
+
+.ticket-list-booking-page{
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+
+
+
+.price-list-booking-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price-list-small-booking-page{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-list-overflow-booking-page {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+}
+
+.radio-btn-booking-page {
+    height: 30px;
+    width: 30px;
+
+}
+
+.radioBtnBack-booking-page {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    padding: 0;
+}
+
+
+
+
+.total-price-booking-page{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ticketHeading-booking-page{
+
+   margin-top: 120px;
+
+}
+
+
+.mainBOX-booking-page{
+
+    display: flex;
+
+}
+
+.footer-booknow{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 30px gray; */
+
+}
+
+.footer-booknow >button{
+
+    padding: 10px 20px;
+}
+.footerTicket{
+    visibility:hidden;
+ }
+
+
+
+
+@media screen and (max-width: 1120px) {
+    
+
+    .topHeading-booking-page{
+        margin-left: 10px; 
+    
+    
+    }
+    .topBar-booking-page{
+        width: 105vw;
+
+
+    }
+    
+    .smallCardTwo-booking-page{
+        display: none;
+    }
+    .smallTicket-booking-page{
+        display: none;
+    }
+    .horizontalList-booking-page{
+        width: 100vw;
+        left: 0;
+    }
+    .listOfitems-booking-page{
+        width: 100%;
+        left: 0;
+    margin-left: 0vw;
+    display: block;
+    position:static;
+
+    }
+    .footerTicket-booking-page{
+        visibility:visible;
+     }
+     
+ 
+  }
+
+
+  

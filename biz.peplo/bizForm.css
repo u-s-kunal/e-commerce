@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(242, 239, 239, 0.777);
+}
+.logo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.back-img{
+
+    height: 400px;
+    width: 430px;
+
+}
+
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainCard {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(42, 43, 43, 0.225), inset 1px 1px 30px rgba(187, 187, 187, 0.287);
+
+}
+
+
+.Trial-text {
+    background-color: #3a8011;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.input{
+    padding: 10px;
+    height: 50px;
+    border: 1px solid  #115280;
+    border-radius: 0px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.input:focus{
+    background-color: transparent;
+
+}
+
+button{
+    background-color:rgb(148, 15, 15) ;
+    border: none;
+    margin: 15px 0px;
+    color: white;
+    transition: 1s;
+}
+
+button:hover{
+    background-color:rgb(189, 3, 3) ;
+    color: white;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.card-footer{
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* media queries starts here  */
+@media only screen and (max-width: 1200px) {
+    .logo{
+        position: static;
+        top: 0%;
+        left: 0%;
+    }
+    body {
+        background-color: rgba(242, 239, 239, 0.777);
+        overflow: scroll;
+    }
+    .mainBox{
+        display: flex;
+        align-items: center;
+    }
+   
+    .mainCard {
+        background-color: white;
+        width: auto;
+        padding: 30px 10px;
+    }
+
+    .back-img{
+        display: none;
+    }
+
+   
+    
+    
+  }
+
+@media only screen and (max-width: 900px) {
+    .mainBox{
+        display: flex;
+        align-items: center;
+
+
+    }
+   
+    .mainCard {
+        background-color: white;
+        width: auto;
+        top: 20%;
+        padding: 30px 10px;
+        left: 5%;
+    }
+
+    .back-img{
+        display: none;
+    }
+
+   
+    
+    
+  }
+
+

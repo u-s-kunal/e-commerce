@@ -1,0 +1,180 @@
+
+
+.logo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.back-img{
+
+    height: 500px;
+    width: 530px;
+
+}
+
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainCard {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: 420px;
+    padding: 50px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(43, 42, 42, 0.404), inset 1px 1px 30px rgba(187, 187, 187, 0.287);
+    border: 3px solid var(--first-color);
+
+}
+
+
+.Trial-text {
+    background-color: #3a8011;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.input{
+    padding: 10px;
+    height: 50px;
+    border: 1px solid  #115280;
+    border-radius: 0px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.input:focus{
+    background-color: transparent;
+
+}
+
+.button{
+    background-color:rgb(148, 15, 15) ;
+    border: none;
+    margin: 15px 0px;
+    color: white;
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.button:hover{
+    background-color:rgb(189, 3, 3) ;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.card-footer{
+    background-color: transparent;
+}
+
+
+/* media queries starts here  */
+@media only screen and (max-width: 1260px) {
+    .mainBox{
+        display: flex;
+        align-items: center;
+    }
+
+    .mainCard-number{
+        margin-top: 120px;
+    }
+   
+    .mainCard {
+        background-color: white;
+        width: auto;
+        padding: 30px 10px;
+    }
+
+    .back-img{
+        display: none;
+    }
+
+    .otp{
+        height: 60px;
+        width: 60px;
+    }
+    
+
+   
+    
+    
+  }
+
+@media only screen and (max-width: 900px) {
+    .mainBox{
+        display: flex;
+        align-items: center;
+
+
+    }
+   
+   
+   
+    .mainCard {
+        background-color: white;
+        width: auto;
+        top: 20%;
+        padding: 30px 10px;
+        left: 5%;
+
+    }
+
+    .back-img{
+        display: none;
+    }
+
+    .otp{
+        height: 50px;
+        width: 50px;
+    }
+
+   
+    
+    
+  }
+
+
+/* -----------------OTP PAGE CSS HERE ------------------- */
+.otp{
+    height: 70px;
+    width: 70px;
+}
+
+.m-head{
+    background-color: var(--first-color);
+
+}
+
+/* media queries starts here  */
+
+  
+  @media only screen and (max-width: 800px) {
+
+  
+
+    .otp{
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+}
+  @media only screen and (max-width: 400px) {
+
+  
+    .otp{
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+}
