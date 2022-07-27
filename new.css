@@ -62,6 +62,7 @@ a {
     background-color: var(--first-color);
     transition: 0.5s;
     padding-top: 60px;
+    box-shadow: 0px 0px 30px rgb(40, 40, 40);
 }
 
 
@@ -132,6 +133,8 @@ a {
     border: none;
     position: fixed;
     z-index: 10000;
+    top: 1%;
+    left: 1%;
 }
 
 .openbtn:hover {
@@ -140,7 +143,7 @@ a {
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
@@ -1280,6 +1283,8 @@ label{
 ::-webkit-scrollbar {
     display: none;
 }
+
+
 
 
 
