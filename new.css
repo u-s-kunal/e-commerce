@@ -105,7 +105,6 @@ a {
     margin-left: 215px;
     padding: 5px 13px;
 }
-
 .CartList{
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -244,7 +243,7 @@ a {
 
 .searchBar {
     border: 2px solid var(--first-color);
-    height: 80px;
+    height: 85px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -1093,13 +1092,6 @@ a {
 
 
 }
-.emailBtn{
-    padding: 10px 100px 5px 100px ;
-    width: 100%;
-    margin-top: 30px;
-    text-align: center;
-    border-radius: 5px;
-}
 
 
 
@@ -1498,11 +1490,14 @@ color: white;
 
 }
 .emailBtn{
-    padding: 10px 100px 5px 100px ;
     width: 100%;
     margin-top: 30px;
     text-align: center;
     border-radius: 5px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .listOfitems-login {
