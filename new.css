@@ -1108,21 +1108,20 @@ label{
     display: flex;
     flex-wrap: wrap;
     width: 101vw;
-    height: 170px;
+    height: 100px;
     padding: 20px;
     z-index: 10;
     margin-top: -10px;
     background-color: #212529;
 
 }
-.topHeading-sign-up-form{
+.topHeading-sign-up-form {
     z-index: 1000000;
     position: fixed;
-    top: 70px;
-    left: 50px;
-    height: 70px; 
+    top: 90px;
+    left: 180px;
+    height: 70px;
     width: 550px;
-
 }
 .topStep-sign-up{
     z-index: 1000000;
@@ -1131,7 +1130,7 @@ label{
     padding-right:550px ;
     background-color: #212529;
     width: 101vw;
-    height: 160px;
+    height: 130px;
     
 
 }
@@ -1141,11 +1140,10 @@ label{
     width: 500px;
     height: auto;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.277);
-    z-index: 100;
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
-    margin-top:150px;
+    margin-top:120px;
     flex-direction: column;
     margin-left: 250px;
     z-index: 1000;
@@ -1157,9 +1155,17 @@ label{
 
 }
 
-.leftArrow-sign-up-form{
+.leftArrow-sign-up-form {
     height: 40px;
-    margin-left: -00px;
+    position: fixed;
+    left: 180px;
+    top: 50px;
+}
+
+.sign-up-form-stepTxt{
+    position: fixed;
+    left: 220px;
+    top: 50px;
 }
 .ticketHeading{
 
@@ -1315,14 +1321,10 @@ label{
         width: 100%;
         left: 0;
     }
-    .listOfitems-sign-up-form{
-        width: 100%;
-        left: 0;
-        margin-left: 0vw;
-        margin-top: 150px;
-        display: block;
-        position:static;
-        height: auto;
+    .listOfitems-sign-up-form {     
+
+        margin-left: auto;
+
     }
 
      .topBar-sign-up-page{
@@ -1338,15 +1340,8 @@ label{
     
   }
 
-  @media screen and (max-width: 820px){
 
-   
-    .leftArrow-sign-up-form{
-        height: 40px;
-        margin-left: 200px;
-    }
 
-  }
   @media screen and (max-width: 620px){
     body{
         overflow-x: hidden;
